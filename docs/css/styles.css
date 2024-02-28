@@ -1,7 +1,7 @@
 /* This stylesheet is where to add styles for your Shakespeare Home Page */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Source+Serif+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Source+Serif+Pro:wght@300;400&display=swap');
 
 * {
   margin: 0;
@@ -68,6 +68,12 @@ figure {
  margin-left: .5em;
 }
 
+figure:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 img {
   display: block;
   width: 100%;
@@ -87,7 +93,7 @@ p {
 }
 
 .playlink {
-  clear:both;
+  /* clear:both; */
 }
 
 .playlink a {
@@ -157,7 +163,3 @@ header {
   height: 2em;
 }
 }
-
-
-
-
